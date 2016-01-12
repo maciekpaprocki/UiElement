@@ -1,0 +1,41 @@
+{
+  "name": "uiElement",
+  "version": "0.0.1",
+  "description": "Simple UI element abstract class",
+  "main": "uiElement.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "./node_modules/karma/bin/karma start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maciekpaprocki/UiElement.git"
+  },
+  "keywords": [
+    "UI",
+    "Class"
+  ],
+  "author": "maciekpaprocki",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/maciekpaprocki/UiElement/issues"
+  },
+  "homepage": "https://github.com/maciekpaprocki/UiElement",
+  "devDependencies": {
+    "jasmine-core": "^2.4.1",
+    "karma": "^0.13.16",
+    "karma-browserify": "^4.4.2",
+    "karma-chrome-launcher": "^0.2.2",
+    "karma-firefox-launcher": "^0.1.7",
+    "karma-ie-launcher": "^0.2.0",
+    "karma-jasmine": "^0.3.6",
+    "karma-mocha": "^0.2.1",
+    "karma-opera-launcher": "^0.3.0",
+    "karma-phantomjs-launcher": "^0.2.2",
+    "karma-safari-launcher": "^0.1.1",
+    "mocha": "^2.3.4",
+    "phantomjs": "^1.9.19"
+  }
+}
